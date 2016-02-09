@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D901F4911C14D55400DF1F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D901F4901C14D55400DF1F23 /* AppDelegate.swift */; };
+		D901F4981C14D55600DF1F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D901F4971C14D55600DF1F23 /* Assets.xcassets */; };
+		D901F49B1C14D55600DF1F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D901F4991C14D55600DF1F23 /* LaunchScreen.storyboard */; };
+		D901F4A61C14D56200DF1F23 /* VIBER_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D901F4A51C14D56200DF1F23 /* VIBER_ExampleTests.swift */; };
+		D9C839FC1C14EBC900BD42BF /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C839FB1C14EBC900BD42BF /* RootWireframe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D901F4A21C14D56100DF1F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D901F4851C14D54E00DF1F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D901F48C1C14D55000DF1F23;
+			remoteInfo = "VIBER Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D901F48D1C14D55000DF1F23 /* VIBER Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIBER Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D901F4901C14D55400DF1F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D901F4971C14D55600DF1F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D901F49A1C14D55600DF1F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D901F49C1C14D55600DF1F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D901F4A11C14D56100DF1F23 /* VIBER ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIBER ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D901F4A51C14D56200DF1F23 /* VIBER_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIBER_ExampleTests.swift; sourceTree = "<group>"; };
+		D901F4A71C14D56200DF1F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C839FB1C14EBC900BD42BF /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D901F48A1C14D55000DF1F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D901F49E1C14D56100DF1F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D901F4841C14D54E00DF1F23 = {
+			isa = PBXGroup;
+			children = (
+				D901F48F1C14D55200DF1F23 /* VIBER Example */,
+				D901F4A41C14D56200DF1F23 /* VIBER ExampleTests */,
+				D901F48E1C14D55000DF1F23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D901F48E1C14D55000DF1F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D901F48D1C14D55000DF1F23 /* VIBER Example.app */,
+				D901F4A11C14D56100DF1F23 /* VIBER ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D901F48F1C14D55200DF1F23 /* VIBER Example */ = {
+			isa = PBXGroup;
+			children = (
+				D9C839F51C14EAE700BD42BF /* Classes */,
+				D901F4901C14D55400DF1F23 /* AppDelegate.swift */,
+				D901F4971C14D55600DF1F23 /* Assets.xcassets */,
+				D901F4991C14D55600DF1F23 /* LaunchScreen.storyboard */,
+				D901F49C1C14D55600DF1F23 /* Info.plist */,
+			);
+			path = "VIBER Example";
+			sourceTree = "<group>";
+		};
+		D901F4A41C14D56200DF1F23 /* VIBER ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D901F4A51C14D56200DF1F23 /* VIBER_ExampleTests.swift */,
+				D901F4A71C14D56200DF1F23 /* Info.plist */,
+			);
+			path = "VIBER ExampleTests";
+			sourceTree = "<group>";
+		};
+		D9C839F51C14EAE700BD42BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9C839F61C14EAE700BD42BF /* Common */,
+				D9C839F71C14EAE700BD42BF /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D9C839F61C14EAE700BD42BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D9C839FA1C14EBBB00BD42BF /* RootWireFrame */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9C839F71C14EAE700BD42BF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D9C839F81C14EB5D00BD42BF /* RepoDetails */,
+				D9C839F91C14EB5D00BD42BF /* Search&ListRepos */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D9C839F81C14EB5D00BD42BF /* RepoDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RepoDetails;
+			sourceTree = "<group>";
+		};
+		D9C839F91C14EB5D00BD42BF /* Search&ListRepos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Search&ListRepos";
+			sourceTree = "<group>";
+		};
+		D9C839FA1C14EBBB00BD42BF /* RootWireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D9C839FB1C14EBC900BD42BF /* RootWireframe.swift */,
+			);
+			path = RootWireFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D901F48C1C14D55000DF1F23 /* VIBER Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D901F4AA1C14D56200DF1F23 /* Build configuration list for PBXNativeTarget "VIBER Example" */;
+			buildPhases = (
+				D901F4891C14D55000DF1F23 /* Sources */,
+				D901F48A1C14D55000DF1F23 /* Frameworks */,
+				D901F48B1C14D55000DF1F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIBER Example";
+			productName = "VIBER Example";
+			productReference = D901F48D1C14D55000DF1F23 /* VIBER Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D901F4A01C14D56100DF1F23 /* VIBER ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D901F4AD1C14D56200DF1F23 /* Build configuration list for PBXNativeTarget "VIBER ExampleTests" */;
+			buildPhases = (
+				D901F49D1C14D56100DF1F23 /* Sources */,
+				D901F49E1C14D56100DF1F23 /* Frameworks */,
+				D901F49F1C14D56100DF1F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D901F4A31C14D56100DF1F23 /* PBXTargetDependency */,
+			);
+			name = "VIBER ExampleTests";
+			productName = "VIBER ExampleTests";
+			productReference = D901F4A11C14D56100DF1F23 /* VIBER ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D901F4851C14D54E00DF1F23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mohamed;
+				TargetAttributes = {
+					D901F48C1C14D55000DF1F23 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D901F4A01C14D56100DF1F23 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D901F48C1C14D55000DF1F23;
+					};
+				};
+			};
+			buildConfigurationList = D901F4881C14D54F00DF1F23 /* Build configuration list for PBXProject "VIBER Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D901F4841C14D54E00DF1F23;
+			productRefGroup = D901F48E1C14D55000DF1F23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D901F48C1C14D55000DF1F23 /* VIBER Example */,
+				D901F4A01C14D56100DF1F23 /* VIBER ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D901F48B1C14D55000DF1F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D901F49B1C14D55600DF1F23 /* LaunchScreen.storyboard in Resources */,
+				D901F4981C14D55600DF1F23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D901F49F1C14D56100DF1F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D901F4891C14D55000DF1F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C839FC1C14EBC900BD42BF /* RootWireframe.swift in Sources */,
+				D901F4911C14D55400DF1F23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D901F49D1C14D56100DF1F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D901F4A61C14D56200DF1F23 /* VIBER_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D901F4A31C14D56100DF1F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D901F48C1C14D55000DF1F23 /* VIBER Example */;
+			targetProxy = D901F4A21C14D56100DF1F23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D901F4991C14D55600DF1F23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D901F49A1C14D55600DF1F23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D901F4A81C14D56200DF1F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D901F4A91C14D56200DF1F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D901F4AB1C14D56200DF1F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIBER Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demos.VIBER-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D901F4AC1C14D56200DF1F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIBER Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demos.VIBER-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D901F4AE1C14D56200DF1F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIBER ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demos.VIBER-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIBER Example.app/VIBER Example";
+			};
+			name = Debug;
+		};
+		D901F4AF1C14D56200DF1F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIBER ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demos.VIBER-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIBER Example.app/VIBER Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D901F4881C14D54F00DF1F23 /* Build configuration list for PBXProject "VIBER Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D901F4A81C14D56200DF1F23 /* Debug */,
+				D901F4A91C14D56200DF1F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D901F4AA1C14D56200DF1F23 /* Build configuration list for PBXNativeTarget "VIBER Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D901F4AB1C14D56200DF1F23 /* Debug */,
+				D901F4AC1C14D56200DF1F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D901F4AD1C14D56200DF1F23 /* Build configuration list for PBXNativeTarget "VIBER ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D901F4AE1C14D56200DF1F23 /* Debug */,
+				D901F4AF1C14D56200DF1F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D901F4851C14D54E00DF1F23 /* Project object */;
+}
